@@ -23,9 +23,7 @@ body {
 }
 
 .float-right {
-    float: right;
-    list-style: none;
-   
+    float: right; 
 }
 
 .list-inline {
@@ -33,21 +31,20 @@ body {
 }
 
 .header-top {
-    background-color: blueviolet;
-    width: 85%;
+    background-color: #F4F9FD;
     height: 80px;
-    margin: 0 auto;
+    line-height: 80px;
 }
 
-.list-inline a {
+.list-inline a:not(.btn) {
     text-decoration: none;
-    color: blue;
+    color: #33475B;
     font-size: 14px;
 }
 
 .list-inline > li {
     display: inline-block;
-    padding: 30px 25px;
+    padding: 0px 25px;
 }
 
 .btn {
@@ -59,36 +56,42 @@ body {
     border-radius: 5px;
     text-decoration: none;
 }
-.btn-green {
-    background-color: green;
-    border: 1px solid #7cbb02;
-}
-.btn-green:hover {
-    background-color: white;
-    color: green;
-}
 .btn-orange {
-    background-color: white;
-    border: 1px solid orange;
+    background-color: #fe7759;
+    border: 1px solid #fe7759;
+    color: white;
 }
 .btn-orange:hover {
     background-color: white;
-    color: orange;
+    color: #fe7759;
+}
+.btn-white {
+    background-color: white;
+    border: 1px solid #fe7759;
+    color: #fe7759;
+}
+.btn-white:hover {
+    background-color: #fe7759;
+    color:  white;
 }
 
 .header-bottom {
-    margin: 0 40px;
+    height: 80px;
+}
+
+.w-50 {
+    width: 50%;
 }
 
 .jumbotron {
     background-color: lightgreen;
     height: 500px;
     background-image: url("../img/jumbotron.png");
-    background-position: 100% 100%;
+    background-position: 100%;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
-.jumbotron-text {
+.jumbotron-text .container {
     position: relative;
     top: 20%;
 }
