@@ -35,6 +35,9 @@ body {
     height: 80px;
     line-height: 80px;
 }
+.list-inline > li {
+    line-height: 40px;
+}
 
 .list-inline a:not(.btn) {
     text-decoration: none;
@@ -44,7 +47,7 @@ body {
 
 .list-inline > li {
     display: inline-block;
-    padding: 0px 25px;
+    padding: 10px 25px;
 }
 
 .btn {
@@ -83,22 +86,49 @@ body {
     width: 50%;
 }
 
+#logo {
+    margin: 20px;
+}
+
 .jumbotron {
     background-color: lightgreen;
-    height: 500px;
+    height: 550px;
     background-image: url("../img/jumbotron.png");
     background-position: 100%;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
-.jumbotron-text .container {
-    position: relative;
-    top: 20%;
+.jumbotron-text {
+    width: 50%;
 }
 
 h1 {
-    color: blue;
-    font-size: 40px;
+    color: #384a5f;
+    font-size: 50px; 
+    padding-top: 35px;
+}
+
+p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.free {
+  font-size: 12px;
     
-    
+}
+#btn-free {
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 17px;
+}
+.placeholder {
+    background-color: #FFF2EF;
+    width: 100%;
+    height: 80px;
+    border-top: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+    position: fixed;
 }
