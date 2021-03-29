@@ -81,13 +81,16 @@ body {
 }
 
 .jumbotron {
-    position: relative;
-    height: 470px;
+    background-color: lightgreen;
+    height: 500px;
+    background-image: url("../img/jumbotron.png");
+    background-position: 100% 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 .jumbotron-text {
-    position: absolute;
-    top: 50%;
-    left: 0;
+    position: relative;
+    top: 20%;
 }
 
 h1 {
