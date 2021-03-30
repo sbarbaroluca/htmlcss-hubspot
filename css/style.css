@@ -237,7 +237,7 @@ hr {
 .table {
     width: 100%;
     background-image: linear-gradient(45deg, #00a4bd, #00bda5);
-    height: 700px;
+    height: 750px;
     margin-top: 60px;
 }
 #title-table {
@@ -250,5 +250,39 @@ hr {
     color: white;
     text-align: center;
 }
+
+.home {
+    width: 100%;
+    height: 450px;
+    padding-bottom: 0;
+    border: 1px solid white;
+    vertical-align: baseline;
+    box-sizing: content-box;
+}
+
+.home-box {
+    vertical-align: baseline;
+    height: 225px;
+    width: 25%;
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;   
+    box-sizing: content-box;
+}
+
+.img-table {
+      
+}
+.number h2 {
+    padding-top: 15px;
+    color: white;
+    font-size: 50px;
+}
+.home-box-text {
+    color: white;
+}
+
+
+
 
 
