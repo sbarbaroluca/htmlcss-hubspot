@@ -205,12 +205,16 @@ h4 {
 
 .hub-column {
     box-shadow: 5px 5px 10px 2px #333333;
+    text-align: center;
+    width: 30%;
+    margin-top: 60px;
+    padding: 35px;
 }
 
-.column .float-left {
-    border: 1px solid black;
-    box-shadow: 5px 5px 10px 2px #333333;
+.hub-column img {
+    height: 120px;
 }
+
 .img-column {
     width: 100px;
 }
@@ -223,7 +227,11 @@ h4 {
     list-style: none;  
 }
 hr {
-    margin: 20px 35%;
+    margin: 20px;
+}
+#center-column {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
