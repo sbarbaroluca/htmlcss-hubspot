@@ -201,3 +201,29 @@ h4 {
 .green-button {
     
 }
+
+
+.hub-column {
+    box-shadow: 5px 5px 10px 2px #333333;
+}
+
+.column .float-left {
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px 2px #333333;
+}
+.img-column {
+    width: 100px;
+}
+.order-list {
+    padding: 8px;
+    text-decoration: none;
+    color: #33475B;
+    font-size: 14px;
+    padding: 19px 25px;
+    list-style: none;  
+}
+hr {
+    margin: 20px 35%;
+}
+
+
